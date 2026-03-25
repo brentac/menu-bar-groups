@@ -205,7 +205,6 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
 
                         // Start with placeholder count
                         let item = NSMenuItem(title: "\(displayName) (—)", action: nil, keyEquivalent: "")
-                        item.isEnabled = false
                         menu.insertItem(item, at: insertIndex)
                         insertIndex += 1
 
